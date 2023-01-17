@@ -2,9 +2,10 @@ function Tags({tags}) {
     
     return (
         <div className="tags">
-            {tags.map((tag, index) => {
-                return <span className="tag" key={index}>#{tag}</span>
-            })}
+            #{<span className="tag">tags[0]</span>}
+            #{<span className="tag">tags[1]</span>}
+            #{<span className="tag">tags[2]</span>}
+            #{<span className="tag">tags[3]</span>}
         </div>
     )
 }
