@@ -1,4 +1,4 @@
-function Tags({tags = [ "boomdotdev", "task", "tags", "react" ]}) {
+function Tags({tags}) {
     
     return (
         <div className=".tags">
