@@ -1,7 +1,7 @@
 function Tags({tags}) {
     
     return (
-        <div className=".tags">
+        <div className="tags">
             {tags.map((tag, index) => {
                 return <span className="tag" key={index}>#{tag}</span>
             })}
