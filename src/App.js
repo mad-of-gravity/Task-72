@@ -1,5 +1,5 @@
 import "./App.css";
-import "./Tags";
+import Tags from "./Tags";
 
 function App() {
   return (
